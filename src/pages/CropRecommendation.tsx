@@ -47,8 +47,8 @@ const LoadingSpinner = () => (
 );
 
 const DEVICE_ID = 'Device_0001';
-const API_URL = "http://127.0.0.1:5000/predict-crop";
-const API_URL_FOR_FERTILIZER = "http://127.0.0.1:5000/recommend-fertilizer";
+const API_URL = "http://bhavin.pythonanywhere.com/predict-crop";
+const API_URL_FOR_FERTILIZER = "http://bhavin.pythonanywhere.com/recommend-fertilizer";
 
 interface SavedCrop {
   crop: string;
@@ -358,3 +358,4 @@ const ConditionItem = ({ icon, label, value }: { icon: React.ReactNode, label: s
 );
 
 export default CropRecommendation;
+
